@@ -7,8 +7,8 @@ from sklearn.cluster import KMeans
 
 # %%
 # load data
-df_customer = pd.read_csv('../data/Case Study - Customer.csv', delimiter=';')
-df_transaction = pd.read_csv('../data/Case Study - Transaction.csv', delimiter=';')
+df_customer = pd.read_csv('../Dataset/Case Study - Customer.csv', delimiter=';')
+df_transaction = pd.read_csv('../Dataset/Case Study - Transaction.csv', delimiter=';')
 
 # %%
 # fill missing values on df_customer
